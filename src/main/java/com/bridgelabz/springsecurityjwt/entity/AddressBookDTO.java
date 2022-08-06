@@ -14,7 +14,7 @@ public class AddressBookDTO {
     public String role;
     public String email;
     public boolean enabled;
-    private int personId;
+    private long personId;
     @Pattern(regexp = "^[A-Z]{1}[a-zA-Z\\s]{2,}$", message = "First name is Invalid")
     private String firstName;
     @Pattern(regexp = "^[A-Z]{1}[a-zA-Z\\s]{2,}$", message = "First name is Invalid")
